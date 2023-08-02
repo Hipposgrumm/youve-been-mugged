@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "muggablekeepinv",
+	"version": "${version}",
+	"name": "You've been Mugged!",
+	"description": "A simple mod allowing players to loot each other, even with keepInventory enabled.",
+	"authors": [
+		"Hipposgrumm"
+	],
+	"contact": {
+		"homepage": "https://github.com/Hipposgrumm",
+		"sources": "https://github.com/Hipposgrumm/muggable-keep-inventory"
+	},
+	"license": "All Rights Reserved",
+	"icon": "mod.png",
+	"environment": "server",
+	"mixins": [
+		"muggablekeepinv.mixins.json"
+	],
+	"depends": {
+		"minecraft": "~1.20",
+		"java": ">=17"
+	}
+}
